@@ -22,6 +22,9 @@ public class Circle
     public void Resize (double r){
         rad=r;
     }
+    public double Radius (){
+        return rad;
+    }
     public void Move (double a,double b){
         x=a;
         y=b;
