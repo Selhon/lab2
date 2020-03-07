@@ -2,7 +2,7 @@ using System;
 public class Square
 {
     double x,y;
-    double w;
+    double w; 
     double curr;
     /// <summary>
     /// Создание квадрата. Задается координата левого нижнего угла и длина стороны.
