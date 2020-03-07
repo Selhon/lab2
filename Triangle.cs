@@ -19,7 +19,9 @@ public class Triangle
         System.Console.WriteLine($"{x+curr/2} {y+Math.Sqrt(3)/2*curr}");
         System.Console.WriteLine($"{x+curr} {y}");
     }
-    
+    public double Side (){
+        return curr;
+    }
     public void Resize (double c){
         curr=c;
     }
