@@ -18,7 +18,9 @@ public class Circle
     public void Center (){
         System.Console.WriteLine(x+" "+y);
     }
-    
+    public double Diameter (){
+        return rad*2;
+    }
     public void Resize (double r){
         rad=r;
     }

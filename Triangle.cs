@@ -20,7 +20,7 @@ public class Triangle
         System.Console.WriteLine($"{x+curr} {y}");
     }
     public double Side (){
-        return curr;
+        return curr; 
     }
     public void Resize (double c){
         curr=c;
