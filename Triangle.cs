@@ -27,5 +27,4 @@ public class Triangle
         x=a;
         y=b;
     }
-    
 }

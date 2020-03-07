@@ -15,7 +15,9 @@ public class Circle
         return 2*Math.PI*rad;
     }
     
-    
+    public void Center (){
+        System.Console.WriteLine(x+" "+y);
+    }
     
     public void Resize (double r){
         rad=r;
