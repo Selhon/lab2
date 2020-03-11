@@ -11,7 +11,7 @@ public class Square
     /// <param name="b">Координата у</param>
     /// <pafram name="c">Длина стороны</param>
     public Square(double a,double b,double c){
-        x=a;
+        x=a; 
         y=b;
         curr=c;
         //curr=Math.Sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2));
